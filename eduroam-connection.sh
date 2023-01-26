@@ -6,6 +6,7 @@ set -e
 interface="wlo1"
 conname="eduroam"
 
+card="wlp0s20f3"
 username="jonatahh@uio.no"
 ssid="eduroam"
 
@@ -21,4 +22,3 @@ nmcli connection add \
 
 printf "You've succesfully created the connection for %s with username %s\n" "${ssid}" "${username}"
 printf "To continue, run the following command, and type the password:\n\tnmcli connection up %s --ask\n" "${connname}"
-
