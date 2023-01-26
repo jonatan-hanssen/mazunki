@@ -4,7 +4,7 @@
 set -e
 
 interface="wlo1"
-conname="eduroam"
+connname="eduroam"
 
 card="wlp0s20f3"
 username="jonatahh@uio.no"
